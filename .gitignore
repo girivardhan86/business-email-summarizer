@@ -1,21 +1,20 @@
-
-# ===== ML / NLP specific =====
+# ===== ML specific =====
 models/
 output/
 runs/
 tokenized/
-checkpoints/
+my_venv/
 
-# Model weights
 *.bin
 *.pt
 *.pth
 *.safetensors
-*.ckpt
-*.h5
 
-# Notebooks
+__pycache__/
+*.pyc
+
 *.ipynb
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
