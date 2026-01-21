@@ -1,3 +1,22 @@
+
+# ===== ML / NLP specific =====
+models/
+output/
+runs/
+tokenized/
+checkpoints/
+
+# Model weights
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.h5
+
+# Notebooks
+*.ipynb
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
