@@ -1,1 +1,25 @@
+# Core
+numpy>=1.24
+pandas>=2.0
+tqdm
 
+# NLP
+nltk>=3.8
+beautifulsoup4
+regex
+
+# Transformers
+torch>=2.2
+transformers>=4.35
+datasets
+sentencepiece
+tokenizers
+
+# Embeddings (for RAG)
+faiss-cpu
+sentence-transformers
+
+# App
+streamlit
+fastapi
+uvicorn
